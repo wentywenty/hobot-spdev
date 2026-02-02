@@ -48,7 +48,7 @@ include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/include/linux
     ${CMAKE_CURRENT_SOURCE_DIR}/include/isp
     ${CMAKE_CURRENT_SOURCE_DIR}/include/hbusb
-    ${CMAKE_CURRENT_SOURCE_DIR}/hobot-dnn/usr/include
+    ${CMAKE_CURRENT_SOURCE_DIR}/hobot-dnn/x3/usr/include
     $ENV{SYSROOT_DIR}/usr/include/aarch64-linux-gnu
 )
 
@@ -57,7 +57,7 @@ link_directories(
   ${CMAKE_CURRENT_SOURCE_DIR}/lib/hbbpu
   ${CMAKE_CURRENT_SOURCE_DIR}/lib/hbmedia
   ${CMAKE_CURRENT_SOURCE_DIR}/lib/aarch64-linux-gnu
-  ${CMAKE_CURRENT_SOURCE_DIR}/hobot-dnn/usr/lib/hbbpu
+  ${CMAKE_CURRENT_SOURCE_DIR}/hobot-dnn/x3/usr/lib/hbbpu
   $ENV{SYSROOT_DIR}/usr/lib/aarch64-linux-gnu
   $ENV{SYSROOT_DIR}/usr/lib/aarch64-none-linux-gnu
 )
